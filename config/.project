@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>config2</name>
+=======
+	<name>config</name>
+>>>>>>> branch 'master' of https://github.com/luanqi777/sp-config.git
 	<comment></comment>
 	<projects>
 	</projects>

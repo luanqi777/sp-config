@@ -1,6 +1,7 @@
 spring:
   application:
     name: order-service
+<<<<<<< HEAD
     
 # server:
 #  port: 8201
@@ -10,6 +11,21 @@ eureka:
   client:
     service-url:
       defaultZone: http://eureka1:2001/eureka, http://eureka2:2002/eureka
+=======
+  rabbitmq:
+    host: 192.168.222.132
+    port: 5672
+    username: admin
+    password: admin
+    
+#server:
+#  port: 8201
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka1:2001/eureka,http://eureka2:2002/eureka
+>>>>>>> branch 'master' of https://github.com/luanqi777/sp-config.git
       
 feign:
   hystrix:
